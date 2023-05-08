@@ -1,5 +1,4 @@
-
-body {
+.body1 {
     position: relative;
     width: 1440px;
     height: 2592px;
@@ -12,7 +11,7 @@ a {
 }
 
 
-.logo {
+.logo1 {
     /* Logo */
 
 
@@ -30,7 +29,7 @@ a {
     top: 24px;
 }
 
-.web {
+.web1 {
     /* Web */
 
 
@@ -92,7 +91,7 @@ a {
     flex-grow: 0;
 }
 
-.head {
+.head1 {
     box-sizing: border-box;
     
     position: absolute;
@@ -107,7 +106,7 @@ a {
     border-bottom: 1px solid #E7E9FC;
 }
 
-.nav {
+.nav1 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -127,7 +126,7 @@ a {
     gap: 40px;
 }
 
-.stud {
+.stud1 {
     width: 48px;
     height: 24px;
 
@@ -151,7 +150,7 @@ a {
     flex-grow: 0;
 }
 
-.port {
+.port1 {
     /* Portfolio */
 
 
@@ -181,7 +180,7 @@ a {
     flex-grow: 0;
 }
 
-.cont {
+.cont1 {
     /* Contacts */
 
 
@@ -211,7 +210,7 @@ a {
     flex-grow: 0;
 }
 
-.mail {
+.mail1 {
     /* info@devstudio.com */
 
 
@@ -237,7 +236,7 @@ a {
     color: #434455;
 }
 
-.cell {
+.cell1 {
     /* +11 (000) 111-11-11 */
 
 
@@ -1390,7 +1389,7 @@ a {
     flex-grow: 0;
 }
 
-.footer {
+.footer1 {
     /* Footer */
 
 
@@ -1405,7 +1404,7 @@ a {
     background: #2E2F42;
 }
 
-.increaseTheFlow {
+.increaseTheFlow1 {
     /* Text */
 
 
@@ -1414,6 +1413,418 @@ a {
     height: 112px;
     left: 156px;
     top: 2380px;
+}
+
+.body2 {
+    /* Portfolio */
+
+
+    position: relative;
+    width: 1440px;
+    height: 2076px;
+
+    background: #FFFFFF;
+}
+
+.head2 {
+    /* Top Line */
+
+
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+
+    /* WHITE
+
+    Header background, team card background
+    */
+        background: #FFFFFF;
+        /* CORNFLOWER */
+
+        border-bottom: 1px solid #E7E9FC;
+}
+
+.logo2 {
+    /* Logo */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    left: 156px;
+    top: 24px;
+}
+
+.web2 {
+    /* Web */
+
+
+    width: 44px;
+    height: 21px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 117% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    /* IRIS */
+
+    color: #4D5AE5;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.studio2 {
+    /* Studio */
+
+
+    width: 71px;
+    height: 21px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 117% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    /* NAVY BLUE */
+
+    color: #2E2F42;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.nav2 {
+    /* Menu Nav */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 261px;
+    height: 24px;
+    left: 347px;
+    top: 24px;
+}
+
+.stud2 {
+    /* Studio */
+
+
+    width: 48px;
+    height: 24px;
+
+    /* Body Medium */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.02em;
+
+    /* NAVY BLUE */
+
+    color: #2E2F42;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.port2 {
+    /* Portfolio */
+
+
+        width: 66px;
+        height: 24px;
+
+        /* Body Medium */
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: 0.02em;
+
+        /* NAVY BLUE */
+
+        color: #2E2F42;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+
+.cont2 {
+    /* Contacts */
+
+
+    width: 67px;
+    height: 24px;
+
+    /* Body Medium */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.02em;
+
+    /* NAVY BLUE */
+
+    color: #2E2F42;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.mail2 {
+    /* info@devstudio.com */
+
+
+    position: absolute;
+    width: 153px;
+    height: 24px;
+    left: 940px;
+    top: 24px;
+
+    /* Body */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.02em;
+
+    /* SLATE */
+
+    color: #434455;
+}
+
+.cell2 {
+    /* +11 (000) 111-11-11 */
+
+
+        position: absolute;
+        width: 151px;
+        height: 24px;
+        left: 1133px;
+        top: 24px;
+
+        /* Body */
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+        letter-spacing: 0.02em;
+
+        /* SLATE */
+
+        color: #434455;
+}
+
+.footer2 {
+    /* Text */
+
+
+    position: absolute;
+    width: 264px;
+    height: 112px;
+    left: 156px;
+    top: 1864px;
+
+    /* NAVY BLUE */
+    
+    background: #2E2F42;
+}
+
+.logo2 {
+    /* Logo */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    left: 156px;
+    top: 1864px;
+}
+
+.web2 {
+    /* Web */
+
+
+        width: 44px;
+        height: 21px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height, or 117% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+
+        /* IRIS */
+
+        color: #4D5AE5;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+
+.studio2 {
+    /* Studio */
+
+
+        width: 71px;
+        height: 21px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height, or 117% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+
+        /* CLOUD */
+
+        color: #F4F4FD;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+
+.increaseTheFlow2 {
+    /* Increase the flow of customers and sales for your business with digital marketing & growth solutions. */
+
+
+        position: absolute;
+        width: 264px;
+        height: 72px;
+        left: 156px;
+        top: 1904px;
+
+        /* Body */
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+        letter-spacing: 0.02em;
+
+        /* CLOUD */
+
+        color: #F4F4FD;
+}
+
+.sec2-1 {
+    /* Filters */
+
+
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+
+        position: absolute;
+        width: 586px;
+        height: 48px;
+        left: 427px;
+        top: 168px;
 }
 
 
