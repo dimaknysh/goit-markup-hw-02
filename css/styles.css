@@ -11,7 +11,7 @@ a {
 }
 
 
-.logo1 {
+.logo_main {
     /* Logo */
 
 
@@ -29,7 +29,7 @@ a {
     top: 24px;
 }
 
-.web1 {
+.web_logo {
     /* Web */
 
 
@@ -60,7 +60,7 @@ a {
     flex-grow: 0;
 }
 
-.studio {
+.stud_logo {
     /* Studio */
 
 
