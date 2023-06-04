@@ -1,1830 +1,227 @@
-.body1 {
-    position: relative;
-    width: 1440px;
-    height: 2592px;
-
-    background: #FFFFFF;
-}
-
 a {
     text-decoration: none;
 }
 
 
-.logo_main {
-    /* Logo */
 
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-
-    position: absolute;
-    width: 115px;
-    height: 24px;
-    left: 156px;
-    top: 24px;
+.body {
+    font-family: 'Roboto' , sans-serif ;
+    background-color: #E5E5E5;
 }
 
-.web_logo {
-    /* Web */
+.header {
+    
+}
 
+.header-nav {
 
-    width: 44px;
-    height: 21px;
+}
 
+.header-logo {}
+
+.header-web {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
-    /* identical to box height, or 117% */
-
-    display: flex;
-    align-items: center;
+    line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-
-    /* IRIS */
-
     color: #4D5AE5;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
-.stud_logo {
-    /* Studio */
-
-
-    width: 71px;
-    height: 21px;
-
+.header-studio {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
-    /* identical to box height, or 117% */
-
-    display: flex;
-    align-items: center;
+    line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-
-    /* NAVY BLUE */
-
     color: #2E2F42;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
-.head1 {
-    box-sizing: border-box;
-    
-    position: absolute;
-    width: 1440px;
-    height: 72px;
-    left: 0px;
-    top: 0px;
+.header-list {
 
-    background: #FFFFFF;
-        /* CORNFLOWER */
-    
-    border-bottom: 1px solid #E7E9FC;
 }
 
-.nav1 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
-    position: absolute;
-    width: 261px;
-     height: 24px;
-    left: 347px;
-    top: 24px;
-}
-
-.table1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 40px;
-}
-
-.stud1 {
-    width: 48px;
-    height: 24px;
-
+.header-item {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-
-    letter-spacing: 0.02em;
-
-    /* NAVY BLUE */
-    
+    line-height: 1.5;
+    letter-spacing: 0.02em;   
     color: #2E2F42;
-    
-    
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
-.port1 {
-    /* Portfolio */
+.address {
 
-
-    width: 66px;
-    height: 24px;
-
-    /* Body Medium */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    letter-spacing: 0.02em;
-
-    /* NAVY BLUE */
-
-    color: #2E2F42;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
-.cont1 {
-    /* Contacts */
-
-
-        width: 67px;
-    height: 24px;
-
-    /* Body Medium */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    letter-spacing: 0.02em;
-
-    /* NAVY BLUE */
-
-    color: #2E2F42;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-}
-
-.mail1 {
-    /* info@devstudio.com */
-
-
-    position: absolute;
-    width: 153px;
-    height: 24px;
-    left: 940px;
-    top: 24px;
-
-    /* Body */
-
+.address-mail {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
+    line-height: 1.5;
     letter-spacing: 0.02em;
-
-    /* SLATE */
-
     color: #434455;
 }
 
-.cell1 {
-    /* +11 (000) 111-11-11 */
-
-
-    position: absolute;
-    width: 151px;
-    height: 24px;
-    left: 1133px;
-    top: 24px;
-
-    /* Body */
-
-    font-family: 'Roboto';  
+.address-cell {
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
+    line-height: 1.5;
     letter-spacing: 0.02em;
-
-    /* SLATE */
-
-    color: #434455;
+     color: #434455;
 }
+
+.main {}
 
 .hero {
-    position: absolute;
-    width: 1440px;
-    height: 600px;
-    left: 0px;
-    top: 72px;
-
-    /* NAVY BLUE */
-    
-    background: #2E2F42;
+    background-color: #2E2F42;
 }
 
-.effective {
-    /* Effective Solutions for Your Business */
-
-
-    position: absolute;
-    width: 496px;
-    height: 120px;
-    left: 472px;
-    top: 260px;
-
-    /* Header 1 */
-
+.hero-subtitle {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
-    /* or 107% */
-
-    text-align: center;
+    line-height: 1.07;
     letter-spacing: 0.02em;
-
-    /* WHITE */
-
-    color: #FFFFFF;
+     color: #FFFFFF;
 }
 
-.order {
-    /* Button */
-
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
-
-    position: absolute;
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
-
-    /* IRIS */
-
+.hero-button {
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-
-
+    cursor: pointer;
 }
 
-.oder2 {
-    /* Order Service */
-
-
-    width: 105px;
-    height: 24px;
-
-    /* Button Text */
-
+.hero-button-text {
+ 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    display: flex;
-    align-items: center;
+    line-height: 1.5px;
     letter-spacing: 0.04em;
-
-    /* WHITE */
-
     color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
-
-.sec1 {
-    position: absolute;
-    width: 1128px;
-    height: 104px;
-    left: 156px;
-    top: 792px;
+.features {
+    background: #E5E5E5;
 }
 
-.feature1 {
-    /* Feature 1 */
+.features-list {}
 
+.feature-item {}
 
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
-
-    position: absolute;
-    width: 264px;
-    height: 104px;
-    left: 156px;
-    top: 792px;
-}
-
-.strat {
-    /* Strategy */
-
-
-    width: 264px;
-    height: 24px;
-
-    /* Header 3 */
-
+.feature-item-subtitle {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
-    /* identical to box height, or 120% */
-
+    line-height: 1.2;
     letter-spacing: 0.02em;
-
-    /* NAVY BLUE */
-
     color: #2E2F42;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
-.ourgoal {
-    /* Our goal is to identify the business problem to walk away with the perfect and creative solution. */
-
-
-    width: 264px;
-    height: 72px;
-
-    /* Body */
-
+.feature-item-text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    /* or 150% */
-
+    line-height: 1.5;
     letter-spacing: 0.02em;
-
-    /* SLATE */
-
     color: #434455;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
-.feature2 {
-    /* Feature 2 */
-
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
-
-    position: absolute;
-    width: 264px;
-    height: 104px;
-    left: 444px;
-    top: 792px;
+.products {
+    background: #E5E5E5;
 }
 
-.punctuality {
-    /* Punctuality */
-
-
-    width: 264px;
-    height: 24px;
-
-    /* Header 3 */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    /* identical to box height, or 120% */
-
-    letter-spacing: 0.02em;
-
-    /* NAVY BLUE */
-
-    color: #2E2F42;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.bringTheKey {
-    /* Bring the key message to the brand's audience for the best price within the shortest possible time. */
-
-
-    width: 264px;
-    height: 72px;
-
-    /* Body */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* or 150% */
-
-    letter-spacing: 0.02em;
-
-    /* SLATE */
-
-    color: #434455;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.feature3 {
-    /* Feature 3 */
-
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
-
-    position: absolute;
-    width: 264px;
-    height: 104px;
-    left: 732px;
-    top: 792px;
-}
-
-.diligence {
-    /* Diligence */
-
-
-    width: 264px;
-    height: 24px;
-
-    /* Header 3 */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    /* identical to box height, or 120% */
-
-    letter-spacing: 0.02em;
-
-    /* NAVY BLUE */
-
-    color: #2E2F42;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.researchAndConfirm {
-    /* Research and confirm brands that present the strongest digital growth opportunities and minimize risk. */
-
-
-    width: 264px;
-    height: 72px;
-
-    /* Body */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* or 150% */
-
-    letter-spacing: 0.02em;
-
-    /* SLATE */
-
-    color: #434455;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.feature4 {
-    /* Feature 4 */
-
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
-
-    position: absolute;
-    width: 264px;
-    height: 104px;
-    left: 1020px;
-    top: 792px;
-}
-
-.technologies {
-    /* Technologies */
-
-
-    width: 264px;
-    height: 24px;
-
-    /* Header 3 */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    /* identical to box height, or 120% */
-
-    letter-spacing: 0.02em;
-
-    /* NAVY BLUE */
-
-    color: #2E2F42;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.designPractice {
-    /* Design practice focused on digital experiences. We bring forth a deep passion for problem-solving. */
-
-
-    width: 264px;
-    height: 72px;
-
-    /* Body */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* or 150% */
-
-    letter-spacing: 0.02em;
-
-    /* SLATE */
-
-    color: #434455;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.sec2 {
-    position: absolute;
-    width: 1128px;
-    height: 412px;
-    left: 156px;
-    top: 1016px;
-}
-
-.whatAreWeDoing {
-    /* What are we doing */
-
-
-    position: absolute;
-    width: 323px;
-    height: 40px;
-    left: 559px;
-    top: 1016px;
-
-    /* Header 2 */
-
+.products-subtitle {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
-    /* identical to box height, or 111% */
-
-    text-align: center;
+    line-height: 1.11;   
     letter-spacing: 0.02em;
-    text-transform: capitalize;
-
-    /* NAVY BLUE */
-
-    color: #2E2F42;
+     color: #2E2F42;
 }
 
-.img1 {
-    /* img 1 */
+.products-list {}
+
+.products-item {}
+
+.products-img {}
 
 
-    /* Auto layout */
 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: absolute;
-    width: 360px;
-    height: 300px;
-    left: 156px;
-    top: 1128px;
-
-    box-sizing: border-box;
-
-    background: url(2368.jpg);
-    /* CORNFLOWER */
-
-    border: 1px solid #E7E9FC;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
-}
-
-.img2 {
-    /* img 2 */
-
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: absolute;
-    width: 360px;
-    height: 300px;
-    left: 540px;
-    top: 1128px;
-
-    /* Rectangle 71 */
-
-
-    box-sizing: border-box;
-
-    background: url(2225.jpg);
-    /* CORNFLOWER */
-
-    border: 1px solid #E7E9FC;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.img3 {
-    /* img 3 */
-
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: absolute;
-    width: 360px;
-    height: 300px;
-    left: 924px;
-    top: 1128px;
-
-    /* Rectangle 71 */
-
-
-    box-sizing: border-box;
-
-    background: url(photo-1545235617-7a424c1a60cc.jpg);
-    /* CORNFLOWER */
-
-    border: 1px solid #E7E9FC;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.sec3 {
-    /* Section 3 */
-
-
-    position: absolute;
-    width: 1440px;
-    height: 732px;
-    left: 0px;
-    top: 1548px;
-
-    /* CLOUD */
-    
+.team {
     background: #F4F4FD;
 }
 
-.ourTeam {
-    /* Our Team */
-
-
-    position: absolute;
-    width: 162px;
-    height: 40px;
-    left: 639px;
-    top: 1668px;
-
-    /* Header 2 */
-
+.team-subtitle {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
-    /* identical to box height, or 111% */
-
-    text-align: center;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
-
-    /* NAVY BLUE */
-
     color: #2E2F42;
 }
 
-.card1 {
-    /* Team Card 1 */
+.team-list {}
 
+.team-item {}
 
-    /* Auto layout */
+.team-item-img {}
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
+.team-item-text {}
 
-    position: absolute;
-    width: 264px;
-    height: 380px;
-    left: 156px;
-    top: 1780px;
+.item-name {}
 
-    /* WHITE
+.item-description {}
 
-    Header background, team card background
-    */
-    background: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
-}
+.item-text {}
 
-.img4 {
-    /* img */
 
-
-    width: 264px;
-    height: 260px;
-
-    background: url(man-with-laptop-presenting-something.jpg);
-    mix-blend-mode: normal;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.content1 {
-    /* Card Content */
-
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 8px;
-
-    width: 232px;
-    height: 56px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.mark {
-    /* Mark Guerrero */
-
-
-    width: 134px;
-    height: 24px;
-
-    /* Header 3 */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    /* identical to box height, or 120% */
-
-    text-align: center;
-    letter-spacing: 0.02em;
-
-    /* NAVY BLUE */
-
-    color: #2E2F42;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.productDesigner {
-    /* Product Designer */
-
-
-    width: 128px;
-    height: 24px;
-
-    /* Body */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    text-align: center;
-    letter-spacing: 0.02em;
-
-    /* SLATE */
-
-    color: #434455;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.card2 {
-    /* Team Card 2 */
-
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-
-    position: absolute;
-    width: 264px;
-    height: 380px;
-    left: 444px;
-    top: 1780px;
-
-    /* WHITE
-
-    Header background, team card background
-    */
-    background: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
-}
-
-.img5 {
-    /* img */
-
-
-    width: 264px;
-    height: 260px;
-
-    background: url(img-2.jpg);
-    mix-blend-mode: normal;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.content2 {
-    /* Card Content */
-
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 8px;
-
-    width: 232px;
-    height: 56px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.tom {
-    /* Tom Ford */
-
-
-    width: 88px;
-    height: 24px;
-
-    /* Header 3 */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    /* identical to box height, or 120% */
-
-    text-align: center;
-    letter-spacing: 0.02em;
-
-    /* NAVY BLUE */
-
-    color: #2E2F42;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.frontendDeveloper {
-    /* Frontend Developer */
-
-
-    width: 144px;
-    height: 24px;
-
-    /* Body */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    text-align: center;
-    letter-spacing: 0.02em;
-
-    /* SLATE */
-
-    color: #434455;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-
-.card3 {
-    /* Team Card 3 */
-
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-
-    position: absolute;
-    width: 264px;
-    height: 380px;
-    left: 732px;
-    top: 1780px;
-
-    /* WHITE
-
-    Header background, team card background
-    */
-    background: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
-}
-
-.img6 {
-    /* img */
-
-
-    width: 264px;
-    height: 260px;
-
-    background: url(young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg);
-    mix-blend-mode: normal;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.content3 {
-    /* Card Content */
-
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 8px;
-
-    width: 232px;
-    height: 56px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.camila {
-    /* Camila Garcia */
-
-
-    width: 130px;
-    height: 24px;
-
-    /* Header 3 */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    /* identical to box height, or 120% */
-
-    text-align: center;
-    letter-spacing: 0.02em;
-
-    /* NAVY BLUE */
-
-    color: #2E2F42;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.marketing {
-    /* Marketing */
-
-
-    width: 75px;
-    height: 24px;
-
-    /* Body */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    text-align: center;
-    letter-spacing: 0.02em;
-
-    /* SLATE */
-
-    color: #434455;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.card4 {
-    /* Team Card 4 */
-
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-
-    position: absolute;
-    width: 264px;
-    height: 380px;
-    left: 1020px;
-    top: 1780px;
-
-    /* WHITE
-
-    Header background, team card background
-    */
-    background: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
-}
-
-.img7 {
-    /* img */
-
-
-    width: 264px;
-    height: 260px;
-
-    background: url(confident-handsome-guy-posing-against-white-wall.jpg);
-    mix-blend-mode: normal;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.content4 {
-    /* Card Content */
-
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 8px;
-
-    width: 232px;
-    height: 56px;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.daniel {
-    /* Daniel Wilson */
-
-
-    width: 127px;
-    height: 24px;
-
-    /* Header 3 */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    /* identical to box height, or 120% */
-
-    text-align: center;
-    letter-spacing: 0.02em;
-
-    /* NAVY BLUE */
-
-    color: #2E2F42;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.uiDesigner {
-    /* UI Designer */
-
-
-    width: 85px;
-    height: 24px;
-
-    /* Body */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    text-align: center;
-    letter-spacing: 0.02em;
-
-    /* SLATE */
-
-    color: #434455;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
-
-.footer1 {
-    /* Footer */
-
-
-    position: absolute;
-    width: 1440px;
-    height: 312px;
-    left: 0px;
-    top: 2280px;
-
-    /* NAVY BLUE */
-    
+.footer {
     background: #2E2F42;
 }
 
-.increaseTheFlow1 {
-    /* Text */
+.footer-logo {}
 
-
-    position: absolute;
-    width: 264px;
-    height: 112px;
-    left: 156px;
-    top: 2380px;
-}
-
-.body2 {
-    /* Portfolio */
-
-
-    position: relative;
-    width: 1440px;
-    height: 2076px;
-
-    background: #FFFFFF;
-}
-
-.head2 {
-    /* Top Line */
-
-
-    position: absolute;
-    width: 1440px;
-    height: 72px;
-    left: 0px;
-    top: 0px;
-
-    /* WHITE
-
-    Header background, team card background
-    */
-        background: #FFFFFF;
-        /* CORNFLOWER */
-
-        border-bottom: 1px solid #E7E9FC;
-}
-
-.logo2 {
-    /* Logo */
-
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-
-    position: absolute;
-    width: 115px;
-    height: 24px;
-    left: 156px;
-    top: 24px;
-}
-
-.web2 {
-    /* Web */
-
-
-    width: 44px;
-    height: 21px;
-
+.footer-logo-web {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
-    /* identical to box height, or 117% */
-
-    display: flex;
-    align-items: center;
+    line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-
-    /* IRIS */
-
     color: #4D5AE5;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
-.studio2 {
-    /* Studio */
-
-
-    width: 71px;
-    height: 21px;
-
+.footer-logo-studio {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
-    /* identical to box height, or 117% */
-
-    display: flex;
-    align-items: center;
+    line-height: 1.17px;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-
-    /* NAVY BLUE */
-
-    color: #2E2F42;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    color: #F4F4FD;
 }
 
-.nav2 {
-    /* Menu Nav */
-
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
-
-    position: absolute;
-    width: 261px;
-    height: 24px;
-    left: 347px;
-    top: 24px;
-}
-
-.stud2 {
-    /* Studio */
-
-
-    width: 48px;
-    height: 24px;
-
-    /* Body Medium */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    letter-spacing: 0.02em;
-
-    /* NAVY BLUE */
-
-    color: #2E2F42;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-.port2 {
-    /* Portfolio */
-
-
-        width: 66px;
-        height: 24px;
-
-        /* Body Medium */
-
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        /* identical to box height, or 150% */
-
-        letter-spacing: 0.02em;
-
-        /* NAVY BLUE */
-
-        color: #2E2F42;
-
-
-        /* Inside auto layout */
-
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-}
-
-.cont2 {
-    /* Contacts */
-
-
-    width: 67px;
-    height: 24px;
-
-    /* Body Medium */
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    letter-spacing: 0.02em;
-
-    /* NAVY BLUE */
-
-    color: #2E2F42;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-}
-
-.mail2 {
-    /* info@devstudio.com */
-
-
-    position: absolute;
-    width: 153px;
-    height: 24px;
-    left: 940px;
-    top: 24px;
-
-    /* Body */
-
+.footer-text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
+    line-height: 1.5;
     letter-spacing: 0.02em;
-
-    /* SLATE */
-
-    color: #434455;
+    color: #F4F4FD;
 }
-
-.cell2 {
-    /* +11 (000) 111-11-11 */
-
-
-        position: absolute;
-        width: 151px;
-        height: 24px;
-        left: 1133px;
-        top: 24px;
-
-        /* Body */
-
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        /* identical to box height, or 150% */
-
-        letter-spacing: 0.02em;
-
-        /* SLATE */
-
-        color: #434455;
-}
-
-.footer2 {
-    /* Text */
-
-
-    position: absolute;
-    width: 264px;
-    height: 112px;
-    left: 156px;
-    top: 1864px;
-
-    /* NAVY BLUE */
-    
-    background: #2E2F42;
-}
-
-.logo2 {
-    /* Logo */
-
-
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-
-    position: absolute;
-    width: 115px;
-    height: 24px;
-    left: 156px;
-    top: 1864px;
-}
-
-.web2 {
-    /* Web */
-
-
-        width: 44px;
-        height: 21px;
-
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 21px;
-        /* identical to box height, or 117% */
-
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-
-        /* IRIS */
-
-        color: #4D5AE5;
-
-
-        /* Inside auto layout */
-
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-}
-
-.studio2 {
-    /* Studio */
-
-
-        width: 71px;
-        height: 21px;
-
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 21px;
-        /* identical to box height, or 117% */
-
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-
-        /* CLOUD */
-
-        color: #F4F4FD;
-
-
-        /* Inside auto layout */
-
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-}
-
-.increaseTheFlow2 {
-    /* Increase the flow of customers and sales for your business with digital marketing & growth solutions. */
-
-
-        position: absolute;
-        width: 264px;
-        height: 72px;
-        left: 156px;
-        top: 1904px;
-
-        /* Body */
-
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        /* or 150% */
-
-        letter-spacing: 0.02em;
-
-        /* CLOUD */
-
-        color: #F4F4FD;
-}
-
-.sec2-1 {
-    /* Filters */
-
-
-        /* Auto layout */
-
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 24px;
-
-        position: absolute;
-        width: 586px;
-        height: 48px;
-        left: 427px;
-        top: 168px;
-}
-
-
