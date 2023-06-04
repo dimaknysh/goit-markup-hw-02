@@ -2,11 +2,18 @@ a {
     text-decoration: none;
 }
 
+.link {
+    text-decoration: none;
+}
 
+.list {
+    list-style: none;
+}
 
 .body {
     font-family: 'Roboto' , sans-serif ;
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
+    color: #434455;
 }
 
 .header {
@@ -17,9 +24,7 @@ a {
 
 }
 
-.header-logo {}
-
-.header-web {
+.header-logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -27,6 +32,10 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4D5AE5;
+}
+
+.header-logo span {
+    color: #2E2F42;
 }
 
 .header-studio {
@@ -87,6 +96,7 @@ a {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
+    text-align: center;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -95,13 +105,8 @@ a {
 
 .hero-button {
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
-}
-
-.hero-button-text {
- 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -110,6 +115,16 @@ a {
     letter-spacing: 0.04em;
     color: #FFFFFF;
 }
+
+.hero-button:hover {
+    background-color: #404BBF;
+}
+
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+.hero-button-text {}
 
 .features {
     background: #E5E5E5;
@@ -148,6 +163,8 @@ a {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
+    text-align: center;
+    text-transform: capitalize;
     line-height: 1.11;   
     letter-spacing: 0.02em;
      color: #2E2F42;
@@ -170,6 +187,8 @@ a {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
+    text-align: center;
+    text-transform: capitalize;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2E2F42;
@@ -183,30 +202,34 @@ a {
 
 .team-item-text {}
 
-.item-name {}
+.item-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
 
-.item-description {}
-
-.item-text {}
+.item-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
 
 .footer {
     background: #2E2F42;
 }
 
-.footer-logo {}
-
-.footer-logo-web {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: #4D5AE5;
-}
-
-.footer-logo-studio {
+.footer-logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -214,6 +237,10 @@ a {
     line-height: 1.17px;
     letter-spacing: 0.03em;
     color: #F4F4FD;
+}
+
+.footer-logo span {
+    color: #4D5AE5;
 }
 
 .footer-text {
