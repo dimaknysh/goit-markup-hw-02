@@ -10,11 +10,12 @@ a {
     list-style: none;
 }
 
-.body {
+body {
     font-family: "Roboto" , sans-serif ;
     background-color: #FFFFFF;
     color: #434455;
 }
+
 
 .header {
     
