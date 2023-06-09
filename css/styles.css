@@ -254,7 +254,6 @@ body {
 
 .section-button-list {}
 
-.list {}
 
 .section-button-white {
     font-family: "Roboto", sans-serif;
@@ -290,4 +289,32 @@ body {
 .section-button:focus {
     color: #FFFFFF;
     background-color: #404BBF;
+}
+
+.section-product-list {}
+
+.product-list-item {}
+
+.app-list-link {}
+
+.link {}
+
+.product-list-name {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.product-list-title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
