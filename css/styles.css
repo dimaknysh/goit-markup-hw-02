@@ -1,3 +1,8 @@
+:root {
+    --hover-color: #404bbf;
+    --focus-color: #404bbf;
+}
+
 a {
     text-decoration: none;
 }
@@ -53,11 +58,11 @@ body {
 
 
 .header-link:hover {
-    color: #404bbf;
+    color: var(--hover-color);
 }
 
 .header-link:focus {
-    color: #404bbf;
+    color: var(--focus-color);
 }
 
 .address {
@@ -78,11 +83,11 @@ body {
 }
 
 .address-link:hover {
-    color: #404bbf;
+    color: var(--hover-color);
 }
 
 .address-link:focus {
-    color: #404bbf;
+    color: var(--focus-color);
 }
 
 .main {}
@@ -115,11 +120,11 @@ body {
 }
 
 .hero-button:hover {
-    background-color: #404BBF;
+    background-color: var(--hover-color);
 }
 
 .hero-button:focus {
-    background-color: #404BBF;
+    background-color: var(--focus-color);
 }
 
 .hero-button-text {}
@@ -281,12 +286,12 @@ body {
 
 .section-button:hover {
     color: #FFFFFF;
-    background-color: #404BBF;
+    background-color: var(--hover-color);
 }
 
 .section-button:focus {
     color: #FFFFFF;
-    background-color: #404BBF;
+    background-color: var(--focus-color);
 }
 
 .section-product-list {}
