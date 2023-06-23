@@ -169,6 +169,8 @@ ul {
     max-width: 496px;
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 48px;
+    padding-top: 188px;
 }
 
 .hero-button {
