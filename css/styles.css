@@ -168,6 +168,8 @@ ul {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hero-button {
@@ -186,6 +188,8 @@ ul {
     border: none;
     background-color: var(--button-color);
     border-radius: 4px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hero-button:hover {
