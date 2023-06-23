@@ -21,13 +21,43 @@ body {
     color: #434455;
 }
 
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+p, h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
 
 .header {
-    
+    padding-top: 24px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
 }
 
 .header-nav {
+    display: flex;
+    align-items: center;
+}
 
+.header-list {
+    display: flex;
+    gap: 40px;
 }
 
 .header-logo {
@@ -39,6 +69,7 @@ body {
     letter-spacing: 0.03em;
     color: #4D5AE5;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .header-logo span {
@@ -54,6 +85,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42; 
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 0;
+
 }
 
 
@@ -67,9 +102,14 @@ body {
 
 .address {
     font-style: normal;
+    display: flex;
+    align-items: center;
 }
 
-.address-list {}
+.address-list {
+    display: flex;
+    gap: 40px;
+}
 
 
 .address-link {
@@ -80,6 +120,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-right: 0;
 }
 
 .address-link:hover {
