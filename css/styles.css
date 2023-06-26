@@ -554,13 +554,14 @@ ul {
                 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.app-list-link:hover .list-div .product-list-title{
+.app-list-link:hover .product-list-div-text{
     transform: translateY(0%);
 }
 
-.app-list-link:focus .list-div .product-list-title {
+.app-list-link:focus .product-list-div-text {
     transform: translateY(0%);
 }
+
 
 .link {}
 
