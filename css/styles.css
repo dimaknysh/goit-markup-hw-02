@@ -363,13 +363,12 @@ ul {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-item-link:hover {
+.team-item-link:hover,
+.team-item-link:focus {
     background-color: var(--hover-color);
 }
 
-.team-item-link:focus {
-    background-color: var(--focus-color);
-}
+
 
 .team-list-icon {
     fill: #f4f4fd;
