@@ -782,8 +782,8 @@ footer .footer-div div {
     color: #8e8f99;
 }
 
-.modal-checkbox-input:checked .checkbox-label-span{
-    background-color: #404bbf;
+.modal-checkbox-input:checked + .modal-checkbox-label > span {
+    background-color: #404bbf; 
     border: none;
     fill: #F4F4FD;
 }
